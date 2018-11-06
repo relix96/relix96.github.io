@@ -1,0 +1,30 @@
+ <!-- /.col-lg-3 --> 
+<div class="container">     
+     
+    <div class="center">
+        Destaques
+      </div>
+    <div class="row">
+      <div *ngFor="let destaque of destaques" class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="/assets/produtos/{{destaque.idProduto}}.png" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+             {{destaque.nomeProduto}}
+            </h4>
+            <h5>{{destaque.preco |  currency:"€" }} / {{destaque.porcao}}   <input class="form-control" [(ngModel)]="destaque.quantidade" [ngModelOptions]="{standalone: true}" style="width:50%;" value="{{destaque.quantidade}}" min="{{destaque.quantidadeMinima}}" id="ex1" type="number"></h5>
+            <h5 *ngIf="destaque.precoPack !=0">{{destaque.precoPack |  currency:"€" }} / {{destaque.porcaoPack}}   <input class="form-control" [(ngModel)]="destaque.quantidadePack" [ngModelOptions]="{standalone: true}" style="width:50%;" value="{{destaque.quantidadePack}}" min="{{destaque.quantidadeMinima}}" id="ex1" type="number"></h5>
+
+
+            <p class="card-text">{{destaque.descricao}}</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"><button type="button" (click)=" adicionarDestaque(destaque)" class="btn btn-success">Adicionar</button> </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- /.row -->
+</div>
+  
