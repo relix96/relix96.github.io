@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoriaService } from '../serviços/categorias/categoria.service';
+import { CategoriaService } from '../servicos/categorias/categoria.service';
 import { Categoria } from '../Classes/categoria';
 import { error } from 'selenium-webdriver';
 import { CookieService } from 'angular2-cookie/services';
 import { AppComponent } from '../app.component';
 import {NgModelComponent} from '../ng-model/ng-model.component';
-import {NgModalService} from '../serviços/ngModals/ng-modal.service';
+import {NgModalService} from '../servicos/ngModals/ng-modal.service';
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -19,7 +19,7 @@ export class EmentaComponent implements OnInit {
    private idSessao:String;
    private mensagem:String;
 
-  constructor(private _categoriaService:CategoriaService, private _cookieService:CookieService, 
+  constructor(private _categoriaService:CategoriaService, private _cookieService:CookieService,
     private _appComponent:AppComponent,   private modalService: NgbModal, private _ngModalService:NgModalService) { }
 
   ngOnInit() {

@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { Produto } from '../Classes/produto';
 import { CompraLinha } from '../Classes/compra-linha';
-import { ProdutoService } from '../serviços/produtos/produto.service';
-import { CarrinhoService } from '../serviços/carrinhos/carrinho.service';
+import { ProdutoService } from '../servicos/produtos/produto.service';
+import { CarrinhoService } from '../servicos/carrinhos/carrinho.service';
 import { ActivatedRoute } from '@angular/router';
 import { error } from 'selenium-webdriver';
 import { CookieService } from 'angular2-cookie/services';
 import { Location } from '@angular/common';
 import { AppComponent } from '../app.component';
 import { NgModelComponent } from '../ng-model/ng-model.component';
-import { NgModalService } from '../serviços/ngModals/ng-modal.service';
+import { NgModalService } from '../servicos/ngModals/ng-modal.service';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
 

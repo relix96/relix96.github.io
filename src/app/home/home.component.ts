@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { ProdutoService } from '../serviços/produtos/produto.service';
+import { ProdutoService } from '../servicos/produtos/produto.service';
 import { Produto } from '../Classes/produto';
 import { AppComponent } from '../app.component';
 import { CompraLinha } from '../Classes/compra-linha';
 import { CategoriaDetalhesComponent } from '../categoria-detalhes/categoria-detalhes.component';
-import { CarrinhoService } from '../serviços/carrinhos/carrinho.service';
+import { CarrinhoService } from '../servicos/carrinhos/carrinho.service';
 import { NgModelComponent } from '../ng-model/ng-model.component';
-import { NgModalService } from '../serviços/ngModals/ng-modal.service';
+import { NgModalService } from '../servicos/ngModals/ng-modal.service';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({

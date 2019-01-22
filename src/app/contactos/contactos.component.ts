@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ClienteService } from '../serviços/clientes/cliente.service'
+import { ClienteService } from '../servicos/clientes/cliente.service'
 import { Cliente } from '../Classes/cliente';
 import { error } from 'selenium-webdriver';
 import { CookieService, CookieOptions} from 'angular2-cookie/services';
@@ -14,8 +14,8 @@ export class ContactosComponent implements OnInit {
 
   constructor(private _cookieService:CookieService) { }
   ngOnInit() {
-   
+
   }
 
- 
+
 }

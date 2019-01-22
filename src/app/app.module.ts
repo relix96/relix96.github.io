@@ -13,10 +13,10 @@ import { HomeComponent } from './home/home.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { EmentaComponent } from './ementa/ementa.component';
 import { ContactosComponent } from './contactos/contactos.component';
-import { ClienteService } from './serviços/clientes/cliente.service';
-import { CategoriaService } from  './serviços/categorias/categoria.service';
-import { ProdutoService } from './serviços/produtos/produto.service';
-import { CarrinhoService} from './serviços/carrinhos/carrinho.service';
+import { ClienteService } from './servicos/clientes/cliente.service';
+import { CategoriaService } from  './servicos/categorias/categoria.service';
+import { ProdutoService } from './servicos/produtos/produto.service';
+import { CarrinhoService} from './servicos/carrinhos/carrinho.service';
 import { CategoriaDetalhesComponent } from './categoria-detalhes/categoria-detalhes.component';
 import { LoginComponent } from './login/login.component';
 import { RegistarComponent } from './registar/registar.component';
@@ -24,7 +24,7 @@ import { EmailValidatorDirective } from './email-validator.directive';
 import { CarrinhoComponent } from './carrinho/carrinho.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { NgModelComponent } from './ng-model/ng-model.component';
-import {NgModalService} from './serviços/ngModals/ng-modal.service';
+import {NgModalService} from './servicos/ngModals/ng-modal.service';
 
 
 
@@ -42,7 +42,7 @@ import {NgModalService} from './serviços/ngModals/ng-modal.service';
     CarrinhoComponent,
     PerfilComponent,
     NgModelComponent
-    
+
   ],
   entryComponents:[
     NgModelComponent

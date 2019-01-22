@@ -1,11 +1,11 @@
   import { Component, OnInit } from '@angular/core';
   import { Cliente } from '../Classes/cliente';
-  import { ClienteService } from '../serviços/clientes/cliente.service';
+  import { ClienteService } from '../servicos/clientes/cliente.service';
   import { CookieService } from 'angular2-cookie/services';
   import { error } from 'util';
   import { AppComponent } from '../app.component';
   import { NgModelComponent } from '../ng-model/ng-model.component';
-  import { NgModalService } from '../serviços/ngModals/ng-modal.service';
+  import { NgModalService } from '../servicos/ngModals/ng-modal.service';
   import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
   @Component({

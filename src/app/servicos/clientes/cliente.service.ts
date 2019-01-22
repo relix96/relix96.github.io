@@ -26,19 +26,19 @@ export class ClienteService {
 
     return  this._http.post(this.baseUrl+'/findByCookie/'+idSessao,this.options).map((response:Response)=> response.json())
     .catch(this.errorHandler);
-    
-  }  
-  
+
+  }
+
   getLogin(mail:String, password:String){
     return this._http.post(this.baseUrl+'/login/cliente/'+mail, password, this.options).map((response:Response)=> response.text())
     .catch(this.errorHandler);
-    
-  } 
+
+  }
   createCliente(cliente:Cliente){
 
     return  this._http.post(this.baseUrl+'/createUser',JSON.stringify(cliente), this.options).map((response:Response)=> response.text())
     .catch(this.errorHandler);
-    
+
   }
 
   updateCliente(cliente:Cliente, idSessao:String){
@@ -57,6 +57,3 @@ export class ClienteService {
       return Observable.throw(error.text() || "Erro no Servidor!!");
   }
 }
-
-
-

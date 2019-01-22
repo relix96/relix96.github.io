@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CookieService} from 'angular2-cookie/services';
 import {ContactosComponent} from './contactos/contactos.component';
 import { Options } from 'selenium-webdriver/opera';
-import { ClienteService } from './servi\u00E7os/clientes/cliente.service';
+import { ClienteService } from './servicos/clientes/cliente.service';
 import { Alert } from 'selenium-webdriver';
 import { LoginComponent } from './login/login.component';
 import { Router } from '@angular/router';
@@ -16,11 +16,11 @@ import { Router } from '@angular/router';
 })
 
 export class AppComponent {
-  
+
   private title = 'Take it';
   private idSessao:String;
 
-  
+
 
   constructor(private _cookieService: CookieService, private _clienteService:ClienteService, private _router:Router) { }
   ngOnInit() {
@@ -33,21 +33,20 @@ export class AppComponent {
     this._cookieService.remove("cliente");
 
   }
-  
+
   getCookies() {
     return (this._cookieService.get("cliente") != undefined ? this._cookieService.get("cliente") : "NONE");
   }
 
   setCookies(cookie:String){
-    this._cookieService.put("cliente",cookie.toString());  
+    this._cookieService.put("cliente",cookie.toString());
   }
 
   goHome(){
     this._router.navigate(['']);
   }
 
- 
-  
+
+
 
 }
-

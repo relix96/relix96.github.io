@@ -1,11 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Carrinho } from '../Classes/carrinho';
-import { CarrinhoService } from '../serviços/carrinhos/carrinho.service';
+import { CarrinhoService } from '../servicos/carrinhos/carrinho.service';
 import { CookieService } from 'angular2-cookie/services';
 import { CompraLinha } from '../Classes/compra-linha';
 import { AppComponent } from '../app.component';
 import { NgModelComponent } from '../ng-model/ng-model.component';
-import { NgModalService } from '../serviços/ngModals/ng-modal.service';
+import { NgModalService } from '../servicos/ngModals/ng-modal.service';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({

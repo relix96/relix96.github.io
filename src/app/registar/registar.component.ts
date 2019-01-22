@@ -1,12 +1,12 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { ClienteService } from '../serviços/clientes/cliente.service';
+import { ClienteService } from '../servicos/clientes/cliente.service';
 import { CookieService } from 'angular2-cookie/services';
 import { Cliente } from '../Classes/cliente';
 import { Morada } from '../Classes/morada';
 import { Router } from '@angular/router';
 import { AppComponent } from '../app.component';
 import {NgModelComponent} from '../ng-model/ng-model.component';
-import {NgModalService} from '../serviços/ngModals/ng-modal.service';
+import {NgModalService} from '../servicos/ngModals/ng-modal.service';
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -37,9 +37,9 @@ export class RegistarComponent implements OnInit {
 
   }
 
-  registarCliente(cliente:Cliente, confirmPass:String) {   
+  registarCliente(cliente:Cliente, confirmPass:String) {
     this._clienteService.createCliente(this.cliente).subscribe((idSessao) => {
-      if(confirmPass != cliente.password){        
+      if(confirmPass != cliente.password){
         this._ngModalService.showDefaultModalComponent(NgModelComponent,"Erro!"," As passwords não são iguais!" );
       }
       else{
@@ -47,7 +47,7 @@ export class RegistarComponent implements OnInit {
       this._appComponent.goHome();
       }
     }, (error) => {
-      if(confirmPass != cliente.password){        
+      if(confirmPass != cliente.password){
         this._ngModalService.showDefaultModalComponent(NgModelComponent,"Erro!"," As passwords não são iguais!");
        }
        else{

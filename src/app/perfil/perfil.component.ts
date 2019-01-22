@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ClienteService } from '../serviços/clientes/cliente.service';
+import { ClienteService } from '../servicos/clientes/cliente.service';
 import { CookieService } from 'angular2-cookie/services';
 import { Cliente } from '../Classes/cliente';
 import { AppComponent } from '../app.component';
@@ -7,7 +7,7 @@ import { Morada } from '../Classes/morada';
 import { Router } from '@angular/router';
 import { Location } from '@angular/common';
 import {NgModelComponent} from '../ng-model/ng-model.component';
-import {NgModalService} from '../serviços/ngModals/ng-modal.service';
+import {NgModalService} from '../servicos/ngModals/ng-modal.service';
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -62,4 +62,3 @@ export class PerfilComponent implements OnInit {
   }
 
 }
-
