@@ -53,13 +53,13 @@
           <button type="submit" name="{{produto.nomeProduto}}" (click)="remover(produto)" class="btn btn-success">Remover Produto</button>
         </td>
         <td>
-          {{produto.precoFinal | currency:"€"}}
+          {{produto.precoTotal | currency:"€"}}
         </td>
       </tr>
     </tbody>
   </table>
   <td>
-    Preço Total do carrinho:{{carrinho.precoFinal | currency:"€"}}
+    Preço Total do carrinho:{{carrinho.precoTotal | currency:"€"}}
     <button type="submit" name="comprar" (click)=" comprarCarrinho()" class="btn btn-success">Comprar</button>
   </td>
 </form>

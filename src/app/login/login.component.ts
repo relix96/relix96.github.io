@@ -15,7 +15,7 @@
   })
   export class LoginComponent implements OnInit {
 
-    private cliente: Cliente;
+    cliente: Cliente;
     private mensagem: String;
     private cookie: String;
     constructor(private _clienteService: ClienteService, private _cookieService: CookieService,

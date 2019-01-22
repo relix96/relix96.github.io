@@ -17,7 +17,7 @@ import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 })
 export class PerfilComponent implements OnInit {
 
-  private cliente: Cliente;
+  cliente: Cliente;
   private mensagem: String;
   private cookie: String;
 

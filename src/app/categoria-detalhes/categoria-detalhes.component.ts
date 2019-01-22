@@ -20,7 +20,7 @@ import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 })
 export class CategoriaDetalhesComponent implements OnInit {
   private produtos: Produto[];
-  private compraLinha: CompraLinha[];
+  compraLinha: CompraLinha[];
   private idSessao: String;
   private mensagem: String;
 

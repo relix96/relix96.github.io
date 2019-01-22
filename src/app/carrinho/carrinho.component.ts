@@ -15,9 +15,9 @@ import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 })
 export class CarrinhoComponent implements OnInit {
 
-  private carrinho = new Carrinho();
+  carrinho = new Carrinho();
   private linhaCarrinho: CompraLinha[];
-  private linhas: CompraLinha[];
+  linhas: CompraLinha[];
   private idSessao: String;
   private mensagem: String
 

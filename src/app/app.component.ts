@@ -17,7 +17,7 @@ import { Router } from '@angular/router';
 
 export class AppComponent {
 
-  private title = 'Take it';
+  title = 'Take it';
   private idSessao:String;
 
 

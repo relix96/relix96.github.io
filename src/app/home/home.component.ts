@@ -17,7 +17,7 @@ import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 export class HomeComponent implements OnInit {
 
   private idSessao: String;
-  private destaques: CompraLinha[];
+  destaques: CompraLinha[];
 
   constructor(private _produtoService: ProdutoService, private _appComponent: AppComponent, private _carrinhoService: CarrinhoService, private modalService: NgbModal, private _ngModalService: NgModalService) { }
 

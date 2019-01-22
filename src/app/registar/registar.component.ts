@@ -16,8 +16,8 @@ import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 })
 export class RegistarComponent implements OnInit {
 
-  private cliente: Cliente;
-  private morada: Morada;
+  cliente: Cliente;
+  morada: Morada;
   private idUser: Number;
   private mensagem: String;
   private cookie: String;

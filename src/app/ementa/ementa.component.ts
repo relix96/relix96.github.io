@@ -15,7 +15,7 @@ import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 })
 export class EmentaComponent implements OnInit {
 
-   private categorias:Categoria[];
+   categorias:Categoria[];
    private idSessao:String;
    private mensagem:String;
 
