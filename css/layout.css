@@ -3,8 +3,12 @@ ul {
   margin: 0;
   padding: 0;
 }
-.top{
+.top a{
   float: left;
   width: auto;
   padding: 3px;
+}
+
+top{
+  overflow: hidden;
 }
