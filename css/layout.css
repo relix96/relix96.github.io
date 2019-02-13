@@ -5,8 +5,10 @@ ul {
 }
 .top a{
   float: left;
-  width: auto;
-  padding: 3px;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  font-size: 15px;
 }
 
 top{
