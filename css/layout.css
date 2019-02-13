@@ -1,8 +1,4 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+
 .top a{
   float: left;
   color: black;
@@ -14,4 +10,9 @@ ul {
 top{
   overflow: hidden;
    background-color: #009FE3;
+}
+
+.top a.active {
+  background-color: #4CAF50;
+  color: white;
 }
