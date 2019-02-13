@@ -5,6 +5,7 @@
   text-align: center;
   padding: 15px 15px;
   font-size: 15px;
+  text-decoration: none;
 }
 
 top{
@@ -15,4 +16,8 @@ top{
 .top a.active {
   background-color: #4CAF50;
   color: white;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
