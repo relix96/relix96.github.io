@@ -1,9 +1,9 @@
+/*responsive navigation menu*/
 .nav{
   background-color: #009FE3;
   overflow: hidden;
   text-align: center;
   font-family:"Arial";
-  
 }
 
 .nav a{
@@ -16,7 +16,6 @@
 
 .nav a:hover {
   background-color: yellow;
-  color: black;
 }
 
 .nav li{
