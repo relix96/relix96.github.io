@@ -3,7 +3,7 @@
   overflow: hidden;
   text-align: center;
   font-family:"Arial";
-  margin: inherit;
+  
 }
 
 .nav a{
@@ -28,5 +28,6 @@ body{
   padding:30px 0;
   margin:0 auto;
   font-family:Calibri, sans-serif;
-  background-color: blue;
+  background:url(../images/b1.bmp);
+  background-size: cover;
 }
