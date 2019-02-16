@@ -1,18 +1,22 @@
 .nav{
   background-color: #009FE3;
   overflow: hidden;
+  text-align: center;
 }
 
 .nav a{
-  float: left;
   color: black;
   text-align: center;
-  padding: 14px 16px;
-  font-size: 30px;
+  padding: 30px 30px;
+  font-size: 40px;
   text-decoration: none;
 }
 
 .nav a:hover {
   background-color: yellow;
   color: black;
+}
+
+.nav li{
+  display: inline;
 }
