@@ -1,9 +1,9 @@
-.top{
+.nav{
   background-color: #009FE3;
   overflow: hidden;
 }
 
-.top a{
+.nav a{
   float: left;
   color: black;
   text-align: center;
@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 
-.top a:hover {
+.nav a:hover {
   background-color: yellow;
   color: black;
 }
