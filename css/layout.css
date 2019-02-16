@@ -1,23 +1,18 @@
+.top{
+  background-color: #009FE3;
+  overflow: hidden;
+}
 
 .top a{
   float: left;
   color: black;
   text-align: center;
-  padding: 15px 15px;
-  font-size: 15px;
+  padding: 14px 16px;
+  font-size: 30px;
   text-decoration: none;
 }
 
-top{
-  overflow: hidden;
-   background-color: #009FE3;
-}
-
-.top a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-.topnav a:hover {
-  background-color: #ddd;
+.top a:hover {
+  background-color: yellow;
   color: black;
 }
