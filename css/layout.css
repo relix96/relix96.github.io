@@ -1,18 +1,15 @@
 .nav{
-  background-color: #009FE3;
-  overflow: hidden;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
-
+.nav li{
+    display:inline;
+}
 .nav a{
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 30px;
-  text-decoration: none;
-}
-
-.nav a:hover {
-  background-color: yellow;
-  color: black;
+    display:inline-block;
+    padding:10px;
 }
