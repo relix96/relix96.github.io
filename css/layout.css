@@ -1,4 +1,4 @@
-/*responsive navigation menu*/
+/*responsive navigation menu -> next step*/
 .nav{
   background-color: #009FE3;
   overflow: hidden;
@@ -21,6 +21,12 @@
 .nav li{
   display: inline;
 }
+
+.center h1{
+  text-align: center;
+}
+
+
 
 body{
   width:1000px;
