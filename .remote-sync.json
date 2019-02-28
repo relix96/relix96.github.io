@@ -1,0 +1,18 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "up901155.myvm.port.ac.uk",
+  "target": "webf1_coursework",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "up901155",
+  "password": "relix96",
+  "watch": [],
+  "transport": "scp"
+}
