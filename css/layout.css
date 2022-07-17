@@ -1,4 +1,4 @@
-
+/*
 .header {
   overflow: hidden;
   background-color: #009FE3;
@@ -118,6 +118,7 @@ position: absolute;
   margin-left: 5%;
   margin-right: 5%;
   }
+*/
 
 /*Buttons*/
 :target{
@@ -145,4 +146,10 @@ position: absolute;
   position: relative;
   overflow: hidden;
   color:white;
+}
+
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
 }
